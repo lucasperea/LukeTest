@@ -1,0 +1,13 @@
+.container
+{max-width: 900px;}
+
+.panel-heading
+{background-color:#008400; color: #fff;}
+.panel-info
+{border: #008400;}
+
+.form-control
+{height: 56px; border-radius:0;}
+
+.jumbotron
+{border-radius: 0;}

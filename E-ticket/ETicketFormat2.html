@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>E-ticket</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="images/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" media="all">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+	<!--adjust format-->
+
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+<script type="text/javascript">
+
+$(document).ready(function () {
+    //Convert address tags to google map links - Copyright Michael Jasper 2011
+    $('addressmobile').each(function () {
+        var link = "<a href='http://maps.google.com/maps?q=" + encodeURIComponent( $(this).text() ) + "' target='_blank'>" + $(this).text() + "</a>";
+        $(this).html(link);
+    });
+});
+</script>
+
+
+
+<style>
+.ui-page.ui-page-theme-a.ui-page-active{ min-height: 850px  !important;}
+</style>
+
+
+	<!--Call out at top-->
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-12 text-center hidden-xs"><BR><BR>
+<font size="3"><B>THIS IS YOUR TICKET. Please print and bring to event</B><BR></font>
+</div>
+</div>
+</div>
+		<!--ticket body/barcode-->
+		<div style="  background-image: url(images/ETicketBackground.gif);" class="container barcode-body">
+			<div class="row">
+				<div class=" col-sm-8 ticket-body text-left">
+						<img src="images/ETicketLogo.gif"><br>
+						<p>
+							<font face="arial" size="2"><i>Centre Stage Presents</i></font>
+							<br>
+							<font face="arial" size="5"><b>Annie</b>
+								<br>
+							</font>
+							<font face="arial" size="4"><b>Theatre Center</b></font>
+							<br>
+							<font face="arial" size="3">Sunday, March 13 2016 at 8:00PM
+
+							</font>
+							<BR>
+							<font face="arial" size="2">Adult $50.00</font>
+							<br>
+							<font face="arial" size="2"><b>Section: 1 Row: 2 Seat:124</b></font>
+						</p>
+				</div>
+				<div class=" col-sm-4 text-right visible-lg visible-md visible-sm">
+<BR>
+					<img src="Images/BarcodeGenPort.png" border="0">
+<BR>
+				</div>
+			</div>
+		</div>
+
+<div class="container bottombar">
+	<div class="row">
+		<div class="col-sm-12 visible-lg visible-md visible-sm">
+			<img src="images/ETicketBottomBar.gif">
+</div>
+	</div>
+</div>
+		<!--order/attendee/barcode-->
+		<div class="container orderinfo">
+			<div class="row">
+				<div class="text-left visible-lg visible-md visible-sm col-sm-3">
+
+					<strong>ORDER INFO</strong><BR>
+
+						<strong>Order:</strong> 1999999
+						<br>
+						<strong>Date:</strong> 7/13/2015 at 12:39
+
+						<Br>
+						<strong>Total: </strong> $0.00
+						<BR>
+				</div>
+				<div class="visible-lg visible-md visible-sm	text-left col-sm-3">
+
+							<strong>ATTENDEE</strong><BR>
+
+								<strong>First Last</strong>
+								<BR>718 W. Anaheim Street
+									<br>address2
+								<br>Long Beach, CA 90813
+
+				</div>
+				<div class=" col-sm-3 text-left visible-lg visible-md visible-sm">
+					<strong>VENUE</strong><BR>
+
+
+							<strong>Reserved Theatre</strong>
+							<BR>1234 Main Street
+							<br>address2
+							<br>Long Beach, CA 90802
+							<br>Phone: (123)123-4567
+					</div>
+
+
+
+				<div class=" col-sm-3 text-left visible-lg visible-md visible-sm ">
+					<BR>
+					<img src="images/barcodegen.png">
+
+				</div>
+			</div>
+			</div>
+
+
+	<!--billing/attendee/directions/map-->
+	<div class="container">
+		<div class="row">
+
+			<div class="col-sm-9 visible-lg visible-md visible-sm text-left ">
+				<strong>DIRECTIONS</strong><BR>
+				<div class="directions">Lorem ipsum dolor sit amet, nihil primis consequat ut nam, sed cu feugait albucius. At vim probo adhuc. Ea mea debitis sensibus, pro in sale molestiae reprimique. Et mei sint ipsum paulo. Nec in minim scriptorem contentiones.
+					<BR>Labores gubergren usu ei, ei pro sumo appetere oporteat. An nam omnium conclusionemque. Aliquam voluptua philosophia no est, ullum deserunt ocurreret ea eos, oratio expetenda ex nam. Ei pri utamur fabellas, ex iuvaret repudiare nec, nec at case
+					invidunt. Nostrud volumus hendrerit cum in.</div>
+			</div>
+
+
+			<div class="col-sm-3 visible-sm visible-lg visible-md text-center ">
+
+				<img src="images/map.jpg" width="100%" height="100%">
+			</div>
+
+
+		</div>
+	</div>
+	<!--GENERIAL INFORMATION-->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 visible-lg visible-md visible-sm">
+
+					<STRONG>GENERAL INFORMATION</STRONG>
+					<div class="directions">NO REFUNDS - NO EXCHANGES. DO NOT COPY THIS TICKET. MULTIPLE COPIES INVALID. Holder assumes all risk and danger including, without limitation, injury, death, personal loss, property damage, or other related harm. Management reserves the right to
+						refuse admission or eject any person who fails to comply with the terms and conditions and/or rules for the event in which this ticket is issued.<BR><BR><BR></div>
+
+			</div>
+		</div>
+	</div>
+	<!--AD-->
+	<div class="container">
+		<div class="row">
+			<div style="min-height: 300px;" class="col-sm-12 text-center hidden-xs">
+				<hr>
+
+
+					<img src="images/ETicketTixLogo.gif" >
+
+			</div>
+		</div>
+	</div>
+<DIV CLASS="page-break"></DIV>
+
+
+<!--MOBILE ADJUSTMENTS-->
+
+
+<!--BARCODE-->
+<div style="padding: 1%;" class="container visible-xs hidden-sm hidden-md hidden-lg">
+	<div class="row">
+		<div class="col-xs text-center visible-xs hidden-sm hidden-md hidden-lg">
+			<img src="images/barcodegen.png">
+		</div>
+	</div>
+</div>
+<!--Collapsible menu Attendee Info-->
+<div class="container">
+	<div class="row">
+		<div class="col-xs text-left visible-xs">
+			<div data-role="collapsible">
+  <h3>Attendee Information</h3>
+
+		<strong>Attendee Name:</strong> Joe Ticketbuyer<br>
+	<strong>Order Number: </strong> 123456789<br>
+
+</div>
+		</div>
+	</div>
+</div>
+
+<!--Collapsible menu Venue Info-->
+<div class="container">
+	<div class="row">
+		<div class="col-xs text-center visible-xs">
+			<div data-role="collapsible">
+  <h3>Venue Information</h3>
+<strong>Venue Name</strong><BR>
+	<addressmobile>718 W. Anaheim St Long Beach, CA 90813</addressmobile><BR>
+<i class="fa fa-phone-square"></i> (123) 867-5309
+
+</div>
+		</div>
+	</div>
+</div>
+<!--Collapsible menu Additional Info-->
+
+<div class="container">
+	<div class="row">
+		<div class="col-xs text-center visible-xs">
+			<div data-role="collapsible">
+  <h3>Additional Information</h3>
+  <div class="information-mobile">NO REFUNDS - NO EXCHANGES. DO NOT COPY THIS TICKET. MULTIPLE COPIES INVALID. Holder assumes all risk and danger including, without limitation, injury, death, personal loss, property damage, or other related harm. Management reserves the right to
+		refuse admission or eject any person who fails to comply with the terms and conditions and/or rules for the event in which this ticket is issued.</div>
+</div>
+		</div>
+	</div>
+</div>
+
+
+		<div class="container">
+			<div class="row">
+				<div class="text-center visible-xs">
+		<i class="fa fa-chevron-circle-up fa-3x"></i>
+	</div>
+		</div>
+	</div>
+
+
+
+
+
+	<!-- Latest compiled and minified JavaScript -->
+
+</body>
+
+</html>
