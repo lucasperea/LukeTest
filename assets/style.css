@@ -1,0 +1,74 @@
+/*default stuff*/
+body
+{background-color: #f1f1f1; color: #000; margin: 0; font-family: 'Droid Sans', sans-serif; background-image: url (assets/images/bg.jpg);}
+
+h1, h2, h3
+{font-family: 'Oswald', sans-serif;}
+
+.gray
+{background-color: #222222; color:#fff; height: 85px;}
+.footer
+{background-color: #222222; color:#fff; height: 100%;}
+img{height: auto;}
+
+.white
+{background-color: #fff; color:#000; border: 5px #f1f1f1 solid;}
+.navbar
+{background-color: #222222; color: #fff;}
+
+.container
+{max-width: 960px; width: 100%;}
+/*forms */
+.form-control
+{border-radius: 0px;}
+.form-inline .form-group input {
+ width: auto;
+}
+.features
+{display: inline-block; font-weight: 700; font-size: 3em;}
+
+.panel
+{background-color: #337ab7;}
+
+.panel-group
+{border-radius: 0;}
+.panel-body
+{background-color:#f1f1f1; border: 0;}
+.panel-title
+{border-radius: 0px; font-family: 'Oswald', sans-serif; }
+
+/*button */
+input[type="submit"] {
+  padding: 4px 10px 5px 10px !important;
+  border: none !important;
+  border-bottom: 2px solid #15524e !important;
+  font-size: 0.875em !important;
+  display: inline-block !important;
+  background-color: #258F88 !important;
+  color: #FFF !important;
+  text-shadow: 1px 1px 0 #1b6661 !important;
+  border-radius: 3px !important;
+  text-decoration: none !important;
+}
+
+.btn-demo {
+    padding: 14px 24px;
+    border: 0px none;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 0px;
+    background: none repeat scroll 0% 0% rgb(0, 191, 111);
+    color: rgb(255, 255, 255) !important;}
+
+
+.socialicons ul, li
+{
+  display: inline-block;
+
+
+  padding: 10px;
+  color: #fff;
+  list-style-type: none;
+}
