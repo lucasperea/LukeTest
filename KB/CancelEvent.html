@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Knowledge Base - Cancel Event</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+
+		<!-- bootstrap-->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">
+	<!--font awesome-->
+	<link rel="stylesheet" href="assets/css/font-awesome.css">
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+	<!--custom css-->
+
+</head>
+
+<body>
+
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12">
+
+<!--client merch-->
+<h3>Cancel an Event</h3>
+<p>
+	If your event needs to be cancelled for any reason and your organization follow the steps below:
+</p>
+
+<ol>
+	<li>
+		<b>Deactivate the event</b><BR>
+		Select Management Menu>>Operations>>Event Management
+		Click the "Inactive" radio button next to the event
+		Click the Update Status button
+	</li>
+	<li>
+	<b> Notify ticket buyers of the cancellation</b>
+		Select CRM>>Operations>>Email Notification (NEW)<br>
+		Select Include next to the cancelled event<br>
+		Click the Next button<br>
+		Enter the Reply Email Address, Subject, and Email Body - The email should explain that the event has been cancelled and refunds to the patron's credit card will be issued within 5-7 business days.
+		*Uncheck the “Marketing Email (Mailing List Members Only). This ensures that the email goes to all patrons that made an order
+		Click the Next button<br>
+		Select Plain Template<br>
+		Click the Next button<br>
+		Enter your email address in the Test E-Mail Address field and click the Send Test button to send yourself a test email to ensure that the email is formatted to your liking
+		When ready to send the email to your patrons, click the Send button
+
+	</li>
+</ol>
+
+If you're using the Tix Merchant account, please contact your Tix Representative Contact your Account Manager as soon as possible. Your Account Manager will make arrangements to cancel the existing orders, issue refunds, and assess the refund fees due by your organization.<br><br> If you're using your own merchant account, please continue to the next steps.<br><br>
+<ol>
+
+
+	<li>
+
+		<b>Cancel the existing orders in the Tix system</b><br>
+		Select Reports>>Operations Reports>>Event Detail Report (NEW)<br>
+		Under Event Selection select Choose Events and choose the event that will be cancelled<br>
+		Under Seat Status select Choose Seat Statuses and select Sold<br>
+		Click the Submit button<br>
+		Click on the Order Number in the Order Number column to view the Order Details page for an order<br>
+		Scroll to the bottom of the Order Details page to the Cancel Order heading (Cancel Order must be enabled on your User Account to use this function)<br>
+		Select Release Seats and then click the Cancel Order button<br>
+
+		Close the Order Details tab in your browser and return to the Event Detail Report tab in your browser<br>
+		Repeat this process for each order until all orders have been cancelled<br>
+	</li>
+	<li>
+		<b>Issue a credit to the ticket buyer through your payment gateway</b><br>
+		Login to your payment gateway and issue a credit (refund) to each customer. You can print out the Event Detail Report used previously and lookup each order in your payment gateway by last name, order number, or transaction date/time.
+
+	</li>
+</ol>
+
+
+
+
+
+</div>
+							</div>
+						</div>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+
+</body>
+</html>
