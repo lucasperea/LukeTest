@@ -1,0 +1,48 @@
+body
+{background-color: #E0E0E0; color: #000; margin: 0; font-family: arial;}
+
+.container
+{background-color:#fff; max-width: 960px; min-width: 960px; width:100%;}
+
+
+
+.TixManagementContent
+{
+    background-color: White;
+    padding: 10px;
+}
+
+.TixManagementContent li, table 
+{
+    text-align: left;
+}
+
+/* user control criteria control section */
+	.criteriaControl {
+	}
+
+	.criteriaControl .imageExpandPlaceholder {
+		cursor: pointer;
+	}
+
+	.criteriaControl .imageExpandPlaceholder img {
+		vertical-align: top;
+	}
+
+	.criteriaControl input[type=radio]  {
+			margin-left: 8px;
+	}
+
+	.criteriaControl .criteriaStatus {
+		height:22px;
+		margin-left:12px;
+		padding: 1px 0 1px 22px;
+		background: #e2e8c9 url('/images/icons/info-icon.gif') no-repeat left center;
+	}
+
+	.criteriaControl .criteriaRule {
+		border-bottom: 1px solid white; 
+		margin: 0 26px; 
+		height: 2px; 
+		visibility: hidden;
+	}
