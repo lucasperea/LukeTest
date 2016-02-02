@@ -1,0 +1,55 @@
+body {
+    background-color: #fff;
+    color: #000;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*header*/
+
+.header h1 {
+    font-family: 'Pragati Narrow', sans-serif;
+    font-weight: 700;
+}
+
+
+/*navigation style*/
+
+.navigation {
+    background-color: #003459;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.navigation h4 {
+    font-weight: 700;
+    background-color: #003459;
+}
+
+.navigation a {
+    color: #f1f1f1;
+    text-decoration: none;
+    background-color: #3D5A80;
+}
+
+.navigation a:hover {
+    color: #003459;
+}
+
+.navigation ul {
+    list-style-type: none;
+    border-radius: 0;
+}
+
+.navigation li {
+    list-style-type: none;
+    padding: 10px;
+    border-bottom: #40404;
+    background-color: #3D5A80;
+    border-radius: 0px;
+    width: 100%;
+}
+
+
